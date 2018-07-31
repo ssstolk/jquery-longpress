@@ -68,7 +68,7 @@
             // Browser Support
             $this.on('mousedown', mousedown_callback);
             $this.on('mouseup', mouseup_callback);
-            $this.on('mousemove', move_callback);
+            $this.on('mouseout', move_callback);
 
             // Mobile Support
             $this.on('touchstart', mousedown_callback);
